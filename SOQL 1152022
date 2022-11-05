@@ -1,0 +1,1 @@
+SELECT Name, AccountNumber, OwnerId, Active__c, Phone, AnnualRevenue FROM Account WHERE Active__c = NULL AND AnnualRevenue = NULL
